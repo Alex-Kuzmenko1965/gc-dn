@@ -3,10 +3,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #F5F7FA;
 }
-/* main styles */
-.main {
+
+.menu {
   display: flex;
-  flex-direction: row-reverse;  
+  flex-direction: row-reverse;
 }
 /* main-content styles */
 .main-content {
