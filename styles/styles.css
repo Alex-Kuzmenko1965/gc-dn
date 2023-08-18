@@ -3,10 +3,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #F5F7FA;
 }
-
-.menu {
+/* main styles */
+.main {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse;  
 }
 /* main-content styles */
 .main-content {
@@ -71,20 +71,21 @@ body {
 .project-item {
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
-  color: red;
-}
-.project,
-.project-link {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
+  line-height: 27px;
+  color: black;
+}
+
+.project:hover {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
   line-height: 24px;
-  color: #595959;
+  color: red;
 }
 .project-link {
   margin-left: 10px;
+  color: red;
 }
 
 /* work styles */
