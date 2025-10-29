@@ -5,13 +5,17 @@ body {
 }
 /* main styles */
 .main {
-  display: flex;
+display: flex;
   flex-direction: row-reverse;  
+}
+@media (max-width: 700px) {
+	.main {
+		display: block;
+	}
 }
 /* main-content styles */
 .main-content {
   background: #FFFFFF;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 85px 90px;
 }
 /* abouth styles */
